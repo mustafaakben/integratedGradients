@@ -145,8 +145,6 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 # Train the model
 model.fit(train_data,y_train, epochs=4, batch_size=32, validation_split=0.3)
 
-
-
 # Integrated Gradients
 VOCABS = np.array(text_vector.get_vocabulary())
 
